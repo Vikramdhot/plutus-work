@@ -5667,6 +5667,11 @@ a button:hover {
     max-width: 100%;
     display: block;
     margin: 0 auto;
+    filter: grayscale(1);
+    transition: all .25s ease-out;
+}
+.resorces_content .inner_resouces_list ul li:hover .list_webnair .list_image img {
+    filter: none;
 }
 
 .resorces_content .inner_resouces_list ul li .list_webnair .list_content {
