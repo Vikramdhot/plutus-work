@@ -5720,6 +5720,11 @@ form button {
     pointer-events: none;
 }
 
+.nav-item.double_ahcr {
+    display: flex;
+    align-items: center;
+}
+
 @media(max-width:992px)
 {
     .resorces_content .inner_resouces h2 {
